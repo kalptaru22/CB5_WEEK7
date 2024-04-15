@@ -12,11 +12,10 @@ public class Ans_4 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please Enter Any Group Name");
         String name = sc.nextLine();
-        if (name.equals("Code 2")){
+        if (name.equals("Code 2")) {
             System.out.println(name + " is my group");
-        }
-        else {
-            System.out.println(name +" is not my group" );
+        } else {
+            System.out.println(name + " is not my group");
         }
 
     }
