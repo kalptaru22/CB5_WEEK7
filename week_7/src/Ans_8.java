@@ -12,7 +12,7 @@ public class Ans_8 {
 
         System.out.println("Please Enter any Number :");
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();//
+        int x = sc.nextInt();
         if (x >= 1) {
             System.out.println(x + " Is a Positive Number");
         } else if (x < 0) {
